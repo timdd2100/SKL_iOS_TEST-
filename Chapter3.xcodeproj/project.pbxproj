@@ -10,6 +10,9 @@
 		3B429D081835A7E5003BD950 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B429D071835A7E5003BD950 /* Foundation.framework */; };
 		3B429D0B1835A7E5003BD950 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B429D0A1835A7E5003BD950 /* main.m */; };
 		3B429D0F1835A7E5003BD950 /* Chapter3.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3B429D0E1835A7E5003BD950 /* Chapter3.1 */; };
+		3B429D171835A902003BD950 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B429D161835A902003BD950 /* Person.m */; };
+		3B429D1A1835A91D003BD950 /* Man.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B429D191835A91D003BD950 /* Man.m */; };
+		3B429D1D1835A92C003BD950 /* Woman.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B429D1C1835A92C003BD950 /* Woman.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +34,12 @@
 		3B429D0A1835A7E5003BD950 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3B429D0D1835A7E5003BD950 /* Chapter3-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Chapter3-Prefix.pch"; sourceTree = "<group>"; };
 		3B429D0E1835A7E5003BD950 /* Chapter3.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Chapter3.1; sourceTree = "<group>"; };
+		3B429D151835A902003BD950 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		3B429D161835A902003BD950 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		3B429D181835A91D003BD950 /* Man.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Man.h; sourceTree = "<group>"; };
+		3B429D191835A91D003BD950 /* Man.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Man.m; sourceTree = "<group>"; };
+		3B429D1B1835A92C003BD950 /* Woman.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Woman.h; sourceTree = "<group>"; };
+		3B429D1C1835A92C003BD950 /* Woman.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Woman.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +85,12 @@
 				3B429D0A1835A7E5003BD950 /* main.m */,
 				3B429D0E1835A7E5003BD950 /* Chapter3.1 */,
 				3B429D0C1835A7E5003BD950 /* Supporting Files */,
+				3B429D151835A902003BD950 /* Person.h */,
+				3B429D161835A902003BD950 /* Person.m */,
+				3B429D181835A91D003BD950 /* Man.h */,
+				3B429D191835A91D003BD950 /* Man.m */,
+				3B429D1B1835A92C003BD950 /* Woman.h */,
+				3B429D1C1835A92C003BD950 /* Woman.m */,
 			);
 			path = Chapter3;
 			sourceTree = "<group>";
@@ -139,6 +154,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B429D1D1835A92C003BD950 /* Woman.m in Sources */,
+				3B429D1A1835A91D003BD950 /* Man.m in Sources */,
+				3B429D171835A902003BD950 /* Person.m in Sources */,
 				3B429D0B1835A7E5003BD950 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
