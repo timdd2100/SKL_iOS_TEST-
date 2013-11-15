@@ -18,14 +18,14 @@
 
 
 @implementation Person
-
+@synthesize firstName,lastName,age,taiwanese,fullName;
 //實作初始化方法
--(id)initWithFirstName:(NSString *)fn lastName:(NSString *)ln age:(int)age isTaiwanese:(BOOL)it
+-(id)initWithFirstName:(NSString *)fn lastName:(NSString *)ln age:(int)p_age isTaiwanese:(BOOL)it
 {
     if (self) {
         self.firstName = fn;
         self.lastName = ln;
-        self.age = age;
+        self.age = p_age;
         self.taiwanese = it;
     }
     

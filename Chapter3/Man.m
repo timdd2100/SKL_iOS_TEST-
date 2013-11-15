@@ -14,7 +14,9 @@
 //
 -(BOOL) isMan
 {
-
+//    Man *man1 = [[Man alloc]init];
+//    man1->p1 = 1;
+//    man1->s1 =@"2";
     return YES;
 }
 

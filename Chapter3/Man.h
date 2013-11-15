@@ -10,6 +10,11 @@
 
 @interface Man : Person
 
+{
+    //int p1;
+    //NSString *s1;
+}
+
 
 @property (nonatomic, readonly, getter = isMan) BOOL a_man;
 
