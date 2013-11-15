@@ -27,6 +27,7 @@
         self.lastName = ln;
         self.age = p_age;
         self.taiwanese = it;
+        self.fullName = [fn stringByAppendingFormat:@" %@",ln];
     }
     
     return self;
