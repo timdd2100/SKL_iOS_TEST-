@@ -27,10 +27,18 @@
         self.lastName = ln;
         self.age = p_age;
         self.taiwanese = it;
-        self.fullName = [fn stringByAppendingFormat:@" %@",ln];
+        //self.fullName = [fn stringByAppendingFormat:@" %@",ln];
     }
     
     return self;
+}
+
+//overwrite
+-(NSString *)getFullName
+{
+    NSString *result = [NSString alloc];
+    result = [NSString stringWithFormat:@"%@ %@",self.firstName,self.lastName];
+    return result;
 }
 
 - (NSString *) description {

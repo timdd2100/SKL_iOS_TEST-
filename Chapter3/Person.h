@@ -17,7 +17,7 @@
 
 @property (nonatomic) int age;
 
-@property (atomic, getter = getFullName) NSString *fullName;
+@property (atomic, readonly, getter = getFullName) NSString *fullName;
 
 @property (atomic, getter = isTaiwanese) bool taiwanese;
 
